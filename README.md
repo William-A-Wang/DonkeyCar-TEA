@@ -4,7 +4,7 @@ Find models and scripts in DonkeyModels folder.
 
 ## The DonkeyModels folder contains two directories. 
 
-OldLarsen has the files we used to use in the old lab. The files inside apply to the original cardboard track environment
+OldLarsen has the files we used to use in the old lab. The files inside apply to the original cardboard track environment.
 
 Mala is the model and script file that we are currently using for development.
 
