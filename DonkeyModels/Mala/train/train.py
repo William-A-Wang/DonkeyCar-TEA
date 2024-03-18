@@ -49,8 +49,8 @@ def data_preprocessing(_throttle, _angle, _image):
     _label = _steering
     _cut_height = 80
     _train_img_cut_orig = _train_img[:, _cut_height:224, :]
-    _img_gray = np.dot(_train_img[..., :3], [0.299, 0.587, 0.114])
-    _train_img_cut_gray = _img_gray[:, _cut_height:224, :]
+    _train_img_cut_gray = np.dot(_train_img_cut_orig[..., :3],
+                                 [0.299, 0.587, 0.114])
     return _train_img_cut_orig, _train_img_cut_gray, _label
 
 
