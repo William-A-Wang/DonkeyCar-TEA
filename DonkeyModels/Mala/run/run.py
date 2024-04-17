@@ -30,6 +30,9 @@ PCA9685_I2C_ADDR = 0x40
 pwm = Adafruit_PCA9685.PCA9685(address=PCA9685_I2C_ADDR)
 pwm.set_pwm_freq(60)  # frequence of PWM
 
+"""
+You need to change these PWM values.
+"""
 STEERING_CHANNEL = 1
 STEERING_LEFT_PWM = 290  # pwm value for full left steering
 STEERING_RIGHT_PWM = 490  # pwm value for full right steering
